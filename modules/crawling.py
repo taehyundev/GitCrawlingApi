@@ -12,7 +12,7 @@ def Crawling_git():
     m_data = dict()
 
     # 전체 내용 빼기
-    with open('data/userinfo.json', 'r') as f:
+    with open('data/userinfo.json', 'r',encoding='utf-8') as f:
         info = json.load(f)
 
     #반복문으로 json 데이터 받기
