@@ -21,7 +21,7 @@ def test():
 	return json.dumps(info,indent='\t',ensure_ascii=False)
 
 #Commit 내용 Update
-@app.route('/commmit_update')
+@app.route('/commit_update')
 def commit_update():
 	crawling.Crawling_git()
 	print("Success")
