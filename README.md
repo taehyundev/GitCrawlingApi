@@ -14,5 +14,3 @@ Flask와 json을 이용해서 Github commit수를 클롤링하는 Api를 만들�
 
        * 두개의 모듈 전부 MakeJson을 통해서 값을 json파일로 변환 시켰다.
 
-
-> 다른 곳에서도 접속해서 api를 사용할 수 있게 기능을 추가해야 함
