@@ -12,6 +12,10 @@ Flask와 json을 이용해서 Github commit수를 클롤링하는 Api를 만들�
 
 #### crawling같은 경우에는 깃허브 사이트의 commit갯수를 날짜에 맞게 크롤링하여 commit_result.json이라는 파일 이름으로 저장된다. ###
 
+#### json에 IP랑 Port값을 담아서 app.run할 때 그 값들을 사용한다. ###
+
+#### request.get을 해서 commit_result의 내용을 불러오는데 성공했다. ###
+
        * 두개의 모듈 전부 MakeJson을 통해서 값을 json파일로 변환 시켰다.
 
 **/commit_update : 커밋내용 업데이트 (참고 이미지)**
