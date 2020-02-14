@@ -5,6 +5,9 @@ import json
 import MakeJson
 
 def UserInfo():
+
+    # My Git Page Follower Info Crwaling
+
     resp = requests.get('https://github.com/taehyundev?tab=followers')
     soup = BeautifulSoup(resp.text, 'html.parser')
     titles = soup.select('span.link-gray')
@@ -26,5 +29,5 @@ def UserInfo():
         u_info[cnt] = {"name":name[i],"url":url[i]}
         cnt = cnt+1
 
-    return MakeJson.m_json("data/userinfo.json",u_info ) #Path와 User
+    return MakeJson.m_json("data/userinfo.json",u_info )
 UserInfo()
