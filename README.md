@@ -24,3 +24,6 @@ Flask와 json을 이용해서 Github commit수를 클롤링하는 Api를 만들�
 **/commit_result : 커밋결과 보기**
 
 **/api/commimt : api 값 반환**
+
+
+> 이후 API 토큰을 받아서 요청을 하는 형태로 재구성 해보겠다.
